@@ -5,10 +5,6 @@
  */
 package Controller;
 
-/**
- *
- * @author Hayasaka Ai
- */
-public class ControllerInterface {
-    
+public interface ControllerInterface {
+    public <Any> Any getData();
 }

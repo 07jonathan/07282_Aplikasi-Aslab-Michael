@@ -1,5 +1,5 @@
 package Entity;
-
+import Helper.Koneksi;
 import java.util.Date;
 
 public class BarangEntity extends EntityAbstract {
@@ -43,18 +43,16 @@ public class BarangEntity extends EntityAbstract {
 
     @Override
     public Date getUpdated_at() {
-        return super.getUpdated_at(); //To change body of generated methods, choose Tools | Templates.
+        return super.getUpdated_at(); 
     }
 
     @Override
     public Date getCreated_at() {
-        return super.getCreated_at(); //To change body of generated methods, choose Tools | Templates.
+        return super.getCreated_at(); 
     }
 
     @Override
     public int getId() {
-        return super.getId(); //To change body of generated methods, choose Tools | Templates.
-    }
-
-   
+        return super.getId(); 
+    }   
 }

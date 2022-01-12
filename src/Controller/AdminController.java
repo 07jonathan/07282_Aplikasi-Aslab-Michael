@@ -1,14 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Controller;
 
-/**
- *
- * @author Hayasaka Ai
- */
+import AllObject.AllObjectModel;
+
 public class AdminController {
-    
+    public int checkAdmin(String nama, String password){
+        return AllObjectModel.adminModel.checkAdmin(nama, password);
+    }
 }

@@ -14,6 +14,10 @@ public abstract class EntityAbstract {
     this.updated_at = updated_at;
     }
     
+    public EntityAbstract(int id){
+    this.id = id;
+    }
+    
     public int getId(){
     return id;
     }
